@@ -1,0 +1,32 @@
+object CardList: TCardList
+  Size.Width = 368.000000000000000000
+  Size.Height = 565.000000000000000000
+  Size.PlatformDefault = False
+  object AniTop: TPath
+    Align = Top
+    Data.Path = {
+      0400000000000000000000000000000002000000CDCCCC3E0000803F02000000
+      9A99193F0000803F020000000000803F00000000}
+    Fill.Color = claLightgray
+    HitTest = False
+    Opacity = 0.500000000000000000
+    Size.Width = 368.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object AniBot: TPath
+    Align = Bottom
+    Data.Path = {
+      0400000000000000000000000000803F02000000CDCCCC3E0000000002000000
+      9A99193F00000000020000000000803F0000803F}
+    Fill.Color = claLightgray
+    HitTest = False
+    Opacity = 0.500000000000000000
+    Position.Y = 505.000000000000000000
+    Size.Width = 368.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+end

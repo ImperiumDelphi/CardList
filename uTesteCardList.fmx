@@ -1,0 +1,89 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 767
+  ClientWidth = 483
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Align = Bottom
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 600.000000000000000000
+    Size.Width = 467.000000000000000000
+    Size.Height = 45.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Gerar lista com 5000 produtos'
+    OnClick = Button1Click
+  end
+  object Layout1: TLayout
+    Align = Bottom
+    Position.Y = 714.000000000000000000
+    Size.Width = 483.000000000000000000
+    Size.Height = 53.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Lin01: TText
+      Align = Top
+      Margins.Left = 16.000000000000000000
+      Margins.Right = 16.000000000000000000
+      Position.X = 16.000000000000000000
+      Size.Width = 451.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Leading
+    end
+    object Lin02: TText
+      Align = Top
+      Margins.Left = 16.000000000000000000
+      Margins.Right = 16.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 451.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Leading
+    end
+  end
+  inline CardList1: TCardList
+    Align = Client
+    Size.Width = 483.000000000000000000
+    Size.Height = 592.000000000000000000
+    Size.PlatformDefault = False
+    inherited AniTop: TPath
+      Size.Width = 483.000000000000000000
+    end
+    inherited AniBot: TPath
+      Position.Y = 532.000000000000000000
+      Size.Width = 483.000000000000000000
+    end
+  end
+  object Button2: TButton
+    Align = Bottom
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 661.000000000000000000
+    Size.Width = 467.000000000000000000
+    Size.Height = 45.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Excluir Card 2'
+    OnClick = Button2Click
+  end
+  object http: TNetHTTPClient
+    UserAgent = 'Embarcadero URI Client/1.0'
+    Left = 28
+    Top = 424
+  end
+end

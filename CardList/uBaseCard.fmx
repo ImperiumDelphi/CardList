@@ -1,0 +1,5 @@
+object BaseCard: TBaseCard
+  Size.Width = 328.000000000000000000
+  Size.Height = 196.000000000000000000
+  Size.PlatformDefault = False
+end
